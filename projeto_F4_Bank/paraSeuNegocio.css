@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 166, 0, 0.905);
+    height: 75px;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-logo {
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+}
+
+
+.container-buttons-header {
+   padding-right: 30px;
+}
+
+a {
+    border: none;
+    padding-right: 30px;
+    color: rgba(0, 0, 0, 0.827);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    min-height: 70vh;
+    background-color: rgba(255, 166, 0, 0.595);
+    padding-top: 35px;
+}
+.container-main {
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.827);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.button-enviar{
+    background-color: chocolate;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+}
+
+.button-enviar:hover {
+    background-color: orange;
+    color: azure;
+}
+
+.container-form {
+    padding: 10px;
+}
+
+.container-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.905);
+    height: 100px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.827);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.icon-facebook {
+    padding-top: 10px;
+    margin-left: 55px;
+    width: 4vw;
+    height: 7vh;
+    border-radius: 6px;
+}
+.icon-linkedin {
+    width: 4vw;
+    height: 7vh;
+    border-radius: 6px;
+}
+.icon-twitter {
+    width: 4vw;
+    height: 7vh;
+    border-radius: 6px;
+}
